@@ -31,12 +31,12 @@ class Database extends Config
      * @var array
      */
     public $default = [
-        'DSN'      => 'postgres://lgnspnfcrkjnaz:c7c5f0a6c688fbd8dd63d64cef8c382a71aefae50b2fd8b3786b2b3bbfbc93d5@ec2-3-234-131-8.compute-1.amazonaws.com:5432/ddsntq3a7i21gi',
-        'hostname' => 'ec2-3-234-131-8.compute-1.amazonaws.com',
-        'username' => 'lgnspnfcrkjnaz',
-        'password' => 'c7c5f0a6c688fbd8dd63d64cef8c382a71aefae50b2fd8b3786b2b3bbfbc93d5',
-        'database' => 'ddsntq3a7i21gi',
-        'DBDriver' => 'postgres',
+        'DSN'      => '',
+        'hostname' => 'sql111.epizy.com',
+        'username' => 'epiz_31675300',
+        'password' => 'NXYDWPkPyBvc',
+        'database' => 'epiz_31675300_PemantauanHidroponik',
+        'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),
