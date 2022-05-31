@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'sql111.epizy.com',
-        'username' => 'epiz_31675300',
-        'password' => 'NXYDWPkPyBvc',
-        'database' => 'epiz_31675300_PemantauanHidroponik',
+        'hostname' => 'sql6.freesqldatabase.com',
+        'username' => 'sql6496730',
+        'password' => '6HZmirIXSv',
+        'database' => 'sql6496730',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
