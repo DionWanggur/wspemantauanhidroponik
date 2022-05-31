@@ -1,0 +1,85 @@
+ERROR - 2022-05-23 11:16:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+CRITICAL - 2022-05-23 11:16:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Models/PemantauanModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Controllers/Pemantauan.php(99): App\Models\PemantauanModel->getStatisticsData()
+#6 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pemantauan->statistics()
+#7 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/wshidroponik.pantau.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-23 11:50:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+CRITICAL - 2022-05-23 11:50:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Models/PemantauanModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Controllers/Pemantauan.php(99): App\Models\PemantauanModel->getStatisticsData()
+#6 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pemantauan->statistics()
+#7 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/wshidroponik.pantau.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-23 11:58:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+CRITICAL - 2022-05-23 11:58:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Models/PemantauanModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Controllers/Pemantauan.php(99): App\Models\PemantauanModel->getStatisticsData()
+#6 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pemantauan->statistics()
+#7 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/wshidroponik.pantau.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-23 11:58:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+CRITICAL - 2022-05-23 11:58:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Models/PemantauanModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Controllers/Pemantauan.php(99): App\Models\PemantauanModel->getStatisticsData()
+#6 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pemantauan->statistics()
+#7 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/wshidroponik.pantau.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-23 11:58:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+CRITICAL - 2022-05-23 11:58:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Parameter), 2) as rata2Value
+FROM `sense`
+LEFT JOIN `nodeSensor` ON `sense`.`...' at line 1
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Models/PemantauanModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Controllers/Pemantauan.php(99): App\Models\PemantauanModel->getStatisticsData()
+#6 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pemantauan->statistics()
+#7 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/wshidroponik.pantau.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

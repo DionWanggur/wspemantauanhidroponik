@@ -1,0 +1,133 @@
+CRITICAL - 2022-05-09 02:32:55 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:33:30 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:33:30 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/wshidroponik.pantau.com/public_html/index.php:2) in /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 02:34:32 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:34:32 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/wshidroponik.pantau.com/public_html/index.php:2) in /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 02:34:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:34:43 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/wshidroponik.pantau.com/public_html/index.php:2) in /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 02:34:51 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:37:25 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:38:03 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:38:03 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/wshidroponik.pantau.com/public_html/index.php:2) in /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 02:41:26 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:41:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/wshidroponik.pantau.com/public_html/index.php:2) in /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 02:41:37 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:43:16 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:43:33 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(28): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:43:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /var/www/wshidroponik.pantau.com/public_html/index.php:2) in /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(112): header()
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 02:51:28 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(27): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:52:36 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(27): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:54:25 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(27): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:55:13 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(27): require('/var/www/wshidr...')
+#2 {main}
+CRITICAL - 2022-05-09 02:56:38 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/wshidroponik.pantau.com/public_html/index.php(27): require('/var/www/wshidr...')
+#2 {main}
+ERROR - 2022-05-09 02:20:28 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: Name or service not known
+CRITICAL - 2022-05-09 02:20:28 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Validation/Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique()
+#4 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /var/www/wshidroponik.pantau.com/WebServicePemantauan/app/Controllers/Pemantauan.php(84): CodeIgniter\Controller->validate()
+#7 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pemantauan->monitoring()
+#8 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/wshidroponik.pantau.com/WebServicePemantauan/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/wshidroponik.pantau.com/WebServicePemantauan/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

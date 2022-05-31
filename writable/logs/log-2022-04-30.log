@@ -1,0 +1,167 @@
+ERROR - 2022-04-30 03:55:30 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-30 03:55:30 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pengguna.php(23): CodeIgniter\BaseModel->findAll()
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pengguna->index()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#10 {main}
+CRITICAL - 2022-04-30 04:11:57 --> syntax error, unexpected ']'
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Semester 10\\...')
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#9 {main}
+CRITICAL - 2022-04-30 05:17:53 --> Trying to access array offset on value of type null
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pengguna.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Semester 10\\...', 55, Array)
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pengguna->authenticate()
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#6 {main}
+ERROR - 2022-04-30 05:20:56 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-30 05:20:56 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('rockstar14', 'username', Array, NULL)
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'rockstar14', Array, Array)
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pengguna.php(30): CodeIgniter\Controller->validate(Array)
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pengguna->authenticate()
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#9 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#12 {main}
+CRITICAL - 2022-04-30 06:05:02 --> hash(): Unknown hashing algorithm: 17
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash(): Unknown...', 'D:\\Semester 10\\...', 59, Array)
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pengguna.php(59): hash('17', 'mantap')
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pengguna->authenticate()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#7 {main}
+CRITICAL - 2022-04-30 06:07:01 --> hash(): Unknown hashing algorithm: sh256
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash(): Unknown...', 'D:\\Semester 10\\...', 59, Array)
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pengguna.php(59): hash('sh256', 'mantap')
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pengguna->authenticate()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#7 {main}
+CRITICAL - 2022-04-30 06:07:41 --> hash(): Unknown hashing algorithm: sh256
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash(): Unknown...', 'D:\\Semester 10\\...', 59, Array)
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pengguna.php(59): hash('sh256', 'mantap')
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pengguna->authenticate()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#7 {main}
+CRITICAL - 2022-04-30 06:35:35 --> syntax error, unexpected ';', expecting ')'
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Semester 10\\...')
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#9 {main}
+ERROR - 2022-04-30 06:59:43 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-30 06:59:43 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('rockstar14', 'username', Array, NULL)
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'rockstar14', Array, Array)
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pengguna.php(32): CodeIgniter\Controller->validate(Array)
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pengguna->authenticate()
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#9 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#12 {main}
+ERROR - 2022-04-30 09:39:21 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-30 09:39:21 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Models\PemantauanModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pemantauan.php(52): App\Models\PemantauanModel->getSensingData('2')
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pemantauan->monitoring('2')
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemantauan))
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#9 {main}
+ERROR - 2022-04-30 11:05:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-30 11:05:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Models\PemantauanModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pemantauan.php(52): App\Models\PemantauanModel->getSensingData('2')
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pemantauan->monitoring('2')
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemantauan))
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#9 {main}
+ERROR - 2022-04-30 11:05:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-30 11:05:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Models\PemantauanModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\app\Controllers\Pemantauan.php(52): App\Models\PemantauanModel->getSensingData('2')
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pemantauan->monitoring('2')
+#5 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemantauan))
+#6 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#9 {main}
+CRITICAL - 2022-04-30 11:28:41 --> Too few arguments to function App\Controllers\Pemantauan::history(), 0 passed in D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 3 expected
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pemantauan->history()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemantauan))
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#5 {main}
+CRITICAL - 2022-04-30 11:29:03 --> Too few arguments to function App\Controllers\Pemantauan::history(), 0 passed in D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 3 expected
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pemantauan->history()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemantauan))
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#5 {main}
+CRITICAL - 2022-04-30 11:29:47 --> Too few arguments to function App\Controllers\Pemantauan::history(), 0 passed in D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 3 expected
+#0 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pemantauan->history()
+#1 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemantauan))
+#2 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Semester 10\Web Services Pemantauan Hidroponik\WebServicePemantauan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Semester 10\\...')
+#5 {main}
