@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://wshidroponik.pantau.com/';
+    public $baseURL = 'http://wspemantauanhidroponik.herokuapp.com/';
 
     /**
      * --------------------------------------------------------------------------
@@ -36,7 +36,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $indexPage = '';
+    public $indexPage = 'index.php';
 
     /**
      * --------------------------------------------------------------------------
