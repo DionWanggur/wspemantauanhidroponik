@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://wspemantauanhidroponik.herokuapp.com/';
+    public $baseURL = 'https://wspemantauanhidroponik.herokuapp.com/';
 
     /**
      * --------------------------------------------------------------------------
