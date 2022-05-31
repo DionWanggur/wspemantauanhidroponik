@@ -36,7 +36,7 @@
 
                 document.getElementById("demo").innerHTML = content;
             }
-            xhttp.open("GET", "http://localhost:8080/monitoring?namaNode=Node%20Satu", true);
+            xhttp.open("GET", "http://localhost:8080/monitoring?namaNode=Node%20Dua", true);
             xhttp.responseText = "json";
             xhttp.send();
         }
