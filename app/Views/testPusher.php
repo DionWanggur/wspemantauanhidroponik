@@ -28,7 +28,8 @@
                 document.getElementById("namaHidroponik").innerHTML = JSONarray[0].namaHidroponik
                 document.getElementById("lokasi").innerHTML = JSONarray[0].lokasi
                 document.getElementById("namaNode").innerHTML = JSONarray[0].namaNode;
-                document.getElementById("waktu").innerHTML = Date.parse(JSONarray[0].waktu);
+                const d = new Date(JSONarray[0].waktu)
+                document.getElementById("waktu").innerHTML = d;
                 var content = "";
 
                 for (let i in JSONarray) {
@@ -50,7 +51,8 @@
                 document.getElementById("namaHidroponik1").innerHTML = JSONarray[0].namaHidroponik
                 document.getElementById("lokasi1").innerHTML = JSONarray[0].lokasi
                 document.getElementById("namaNode1").innerHTML = JSONarray[0].namaNode;
-                document.getElementById("waktu1").innerHTML = Date.parse(JSONarray[0].waktu);
+                const d = new Date(JSONarray[0].waktu)
+                document.getElementById("waktu1").innerHTML = d;
                 var content = "";
 
                 for (let i in JSONarray) {
