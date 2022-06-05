@@ -31,12 +31,14 @@
                 var content = "";
 
                 for (let i in JSONarray) {
+                    
                     content += JSONarray[i].namaSensor + " : " + JSONarray[i].value + "\n";
+                    console.log(content);
                 }
 
                 document.getElementById("demo").innerHTML = content;
             }
-            xhttp.open("GET", "http://localhost:8080/monitoring?namaNode=Node%20Dua", true);
+            xhttp.open("GET", "https://wspemantauanhidroponik.herokuapp.com/monitoring?namaNode=Node%20Dua", true);
             xhttp.responseText = "json";
             xhttp.send();
         }
