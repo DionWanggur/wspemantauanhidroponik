@@ -25,7 +25,6 @@
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function() {
                 var JSONarray = JSON.parse(this.responseText);
-                console.log(JSONarray);
                 document.getElementById("namaHidroponik").innerHTML = JSONarray[0].namaHidroponik;
                 document.getElementById("lokasi").innerHTML = JSONarray[0].lokasi;
                 document.getElementById("namaNode").innerHTML = JSONarray[0].namaNode;
