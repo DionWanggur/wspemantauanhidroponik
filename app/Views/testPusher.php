@@ -25,8 +25,8 @@
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function() {
                 var JSONarray = JSON.parse(this.responseText);
-                document.getElementById("namaHidroponik").innerHTML = JSONarray[0].namaHidroponik
-                document.getElementById("lokasi").innerHTML = JSONarray[0].lokasi
+                document.getElementById("namaHidroponik").innerHTML = JSONarray[0].namaHidroponik;
+                document.getElementById("lokasi").innerHTML = JSONarray[0].lokasi;
                 document.getElementById("namaNode").innerHTML = JSONarray[0].namaNode;
                 const d = new Date(JSONarray[0].waktu)
                 document.getElementById("waktu").innerHTML = d;
@@ -49,8 +49,8 @@
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function() {
                 var JSONarray = JSON.parse(this.responseText);
-                document.getElementById("namaHidroponik1").innerHTML = JSONarray[0].namaHidroponik
-                document.getElementById("lokasi1").innerHTML = JSONarray[0].lokasi
+                document.getElementById("namaHidroponik1").innerHTML = JSONarray[0].namaHidroponik;
+                document.getElementById("lokasi1").innerHTML = JSONarray[0].lokasi;
                 document.getElementById("namaNode1").innerHTML = JSONarray[0].namaNode;
                 const d = new Date(JSONarray[0].waktu)
                 document.getElementById("waktu1").innerHTML = d;
