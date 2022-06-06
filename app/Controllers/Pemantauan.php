@@ -1,6 +1,6 @@
 <?php
-
 namespace App\Controllers;
+header('Access-Control-Allow-Origin: *');
 
 use App\Models\PemantauanModel;
 use CodeIgniter\RESTful\ResourceController;

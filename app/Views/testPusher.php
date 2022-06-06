@@ -25,6 +25,7 @@
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function() {
                 var JSONarray = JSON.parse(this.responseText);
+                console.log(JSONarray);
                 document.getElementById("namaHidroponik").innerHTML = JSONarray[0].namaHidroponik;
                 document.getElementById("lokasi").innerHTML = JSONarray[0].lokasi;
                 document.getElementById("namaNode").innerHTML = JSONarray[0].namaNode;
@@ -40,7 +41,6 @@
                 document.getElementById("demo").innerHTML = content;
             }
             xhttp.open("GET", "https://wspemantauanhidroponik.herokuapp.com/monitoring?namaNode=Node%20Dua", true);
-            xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.responseText = "json";
             xhttp.send();
         }
@@ -64,7 +64,6 @@
                 document.getElementById("demo1").innerHTML = content;
             }
             xhttp.open("GET", "https://wspemantauanhidroponik.herokuapp.com/monitoring?namaNode=Node%20Satu", true);
-            xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.responseText = "json";
             xhttp.send();
         }
