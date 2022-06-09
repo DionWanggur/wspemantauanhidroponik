@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
+use DateTime;
 use PhpParser\Node\Expr\Cast;
 
 class PemantauanModel extends Model
@@ -75,11 +76,11 @@ class PemantauanModel extends Model
         }
 
         $builder =  $this->db->table('sense');
-        $query = $builder->select('sense.waktu,HOUR(sense.waktu) as xLabel,nodeSensor.status, batasAtas, batasBawah, ROUND(AVG('.$parameter.'),2) as rata2Value')
+        $query = $builder->select('sense.waktu, DATE_ADD(DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),Interval FLOOR(TIMESTAMPDIFF(minute,DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),sense.waktu)/15)*15 minute) as xLabel,nodeSensor.status, batasAtas, batasBawah, ROUND(AVG('.$parameter.'),2) as rata2Value')
             ->join('nodeSensor', 'sense.idNode = nodeSensor.idNode','left')
             ->join('sensor','sense.idNode = sensor.idNode','left')
-            ->groupBy('HOUR(sense.waktu)')
-            ->orderBy('sense.waktu', 'desc')
+            ->groupBy('DATE_ADD(DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),Interval FLOOR(TIMESTAMPDIFF(minute,DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),sense.waktu)/15)*15 minute)')
+            ->orderBy('sense.waktu', 'asc')
             ->where('sense.waktu >= NOW() - INTERVAL 1 DAY AND nodeSensor.namaNode LIKE"'.$namaNode.'" AND 
             sensor.namaSensor LIKE "'.$namaSensor.'"')
             ->get();
