@@ -37,7 +37,7 @@ class PemantauanModel extends Model
     {
         $builder = $this->db->table('hidroponik');
         $query = $builder->select('*')
-                ->join('nodeSensor', 'hidroponik.idHidroponik = nodeSensor.idNode', 'left')
+                ->join('nodeSensor', 'hidroponik.idHidroponik = nodeSensor.idHidroponik', 'left')
                 ->join('sensor', 'nodeSensor.idNode = sensor.idNode', 'left')
                 ->orderBy('waktu', 'desc')
                 ->orderBy('sensor.idSensor','asc')
