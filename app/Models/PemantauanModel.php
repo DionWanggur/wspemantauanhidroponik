@@ -76,7 +76,7 @@ class PemantauanModel extends Model
         }
 
         $builder =  $this->db->table('sense');
-        $query = $builder->select('sense.waktu, DATE_ADD(DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),Interval FLOOR(TIMESTAMPDIFF(minute,DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),sense.waktu)/15)*15 minute) as xLabel,nodeSensor.status, batasAtas, batasBawah, ROUND(AVG('.$parameter.'),2) as rata2Value')
+        $query = $builder->select('sense.waktu, DATE_FORMAT(DATE_ADD(DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),Interval FLOOR(TIMESTAMPDIFF(minute,DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),sense.waktu)/15)*15 minute),"%H:%i") as xLabel,nodeSensor.status, batasAtas, batasBawah, ROUND(AVG('.$parameter.'),2) as rata2Value')
             ->join('nodeSensor', 'sense.idNode = nodeSensor.idNode','left')
             ->join('sensor','sense.idNode = sensor.idNode','left')
             ->groupBy('DATE_ADD(DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),Interval FLOOR(TIMESTAMPDIFF(minute,DATE_FORMAT("1000-01-01 00:00:00", "%Y-%m-%d %H:00:00"),sense.waktu)/15)*15 minute)')
