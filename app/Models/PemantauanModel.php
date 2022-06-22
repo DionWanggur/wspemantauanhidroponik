@@ -23,17 +23,6 @@ class PemantauanModel extends Model
         return $query->getResult();
     }
 
-    public function sub1()
-    {
-        $builder = $this->db->table('nodeSensor');
-        $query = $builder->select('*')
-                ->join('sensor', 'nodeSensor.idNode = sensor.idNode')
-                ->get();
-        return $query;
-    }
-
-   
-
     public function getSensingData($namaNode)
     {
         $builder = $this->db->table('hidroponik');
